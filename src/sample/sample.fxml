@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="395.0" prefWidth="340.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <Label fx:id="label1" alignment="CENTER_RIGHT" contentDisplay="RIGHT" layoutX="50.0" layoutY="33.0" prefHeight="42.0" prefWidth="282.0" style="-fx-background-color: #c0c0c0;" textAlignment="RIGHT" wrapText="true">
+         <font>
+            <Font name="Elephant" size="14.0" />
+         </font>
+         <effect>
+            <SepiaTone level="0.11" />
+         </effect>
+      </Label>
+      <Label fx:id="lav2" alignment="CENTER" contentDisplay="CENTER" layoutX="9.0" layoutY="35.0" prefHeight="42.0" prefWidth="36.0" style="-fx-background-color: lightgray;">
+         <font>
+            <Font name="Elephant" size="14.0" />
+         </font>
+         <effect>
+            <Lighting>
+               <bumpInput>
+                  <Shadow />
+               </bumpInput>
+               <light>
+                  <Light.Distant />
+               </light>
+            </Lighting>
+         </effect>
+      </Label>
+      <Button alignment="CENTER" defaultButton="true" layoutX="13.0" layoutY="130.0" mnemonicParsing="false" onAction="#press9" prefHeight="42.0" prefWidth="71.0" text="9" />
+      <Button alignment="CENTER" defaultButton="true" layoutX="99.0" layoutY="130.0" mnemonicParsing="false" onAction="#press8" prefHeight="42.0" prefWidth="71.0" text="8" />
+      <Button alignment="CENTER" defaultButton="true" layoutX="182.0" layoutY="130.0" mnemonicParsing="false" onAction="#press7" prefHeight="42.0" prefWidth="71.0" text="7" />
+      <Button alignment="CENTER" defaultButton="true" layoutX="261.0" layoutY="130.0" mnemonicParsing="false" onAction="#pressadd" prefHeight="42.0" prefWidth="71.0" text="+" />
+      <Button alignment="CENTER" defaultButton="true" layoutX="13.0" layoutY="187.0" mnemonicParsing="false" onAction="#press6" prefHeight="42.0" prefWidth="71.0" text="6" />
+      <Button alignment="CENTER" defaultButton="true" layoutX="99.0" layoutY="188.0" mnemonicParsing="false" onAction="#press5" prefHeight="42.0" prefWidth="71.0" text="5" />
+      <Button alignment="CENTER" defaultButton="true" layoutX="182.0" layoutY="190.0" mnemonicParsing="false" onAction="#press4" prefHeight="42.0" prefWidth="71.0" text="4" />
+      <Button alignment="CENTER" defaultButton="true" layoutX="261.0" layoutY="188.0" mnemonicParsing="false" onAction="#presssub" prefHeight="42.0" prefWidth="71.0" text="-" />
+      <Button alignment="CENTER" defaultButton="true" layoutX="13.0" layoutY="253.0" mnemonicParsing="false" onAction="#press3" prefHeight="42.0" prefWidth="71.0" text="3" />
+      <Button alignment="CENTER" defaultButton="true" layoutX="99.0" layoutY="251.0" mnemonicParsing="false" onAction="#press2" prefHeight="42.0" prefWidth="71.0" text="2" />
+      <Button alignment="CENTER" defaultButton="true" layoutX="182.0" layoutY="253.0" mnemonicParsing="false" onAction="#press1" prefHeight="42.0" prefWidth="71.0" text="1" />
+      <Button alignment="CENTER" defaultButton="true" layoutX="261.0" layoutY="251.0" mnemonicParsing="false" onAction="#pressmul" prefHeight="42.0" prefWidth="71.0" text="*" />
+      <Button alignment="CENTER" defaultButton="true" layoutX="15.0" layoutY="312.0" mnemonicParsing="false" onAction="#presson" prefHeight="42.0" prefWidth="71.0" text="A/C" />
+      <Button alignment="CENTER" defaultButton="true" layoutX="99.0" layoutY="312.0" mnemonicParsing="false" onAction="#press0" prefHeight="42.0" prefWidth="71.0" text="0" />
+      <Button alignment="CENTER" defaultButton="true" layoutX="182.0" layoutY="311.0" mnemonicParsing="false" onAction="#pressequ" prefHeight="42.0" prefWidth="71.0" text="=" />
+      <Button alignment="CENTER" defaultButton="true" layoutX="261.0" layoutY="309.0" mnemonicParsing="false" onAction="#pressdiv" prefHeight="42.0" prefWidth="71.0" text="/" />
+      <TextField alignment="TOP_LEFT" disable="true" layoutX="10.0" layoutY="361.0" prefHeight="25.0" prefWidth="247.0" promptText="Created by Mr. Vikas Sharma" style="-fx-background-color: #c2c2cc;" text="Created by Mr. Vikas Sharma">
+         <font>
+            <Font name="Elephant Italic" size="14.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="DISAPPEAR" />
+         </cursor>
+      </TextField>
+   </children>
+</Pane>
