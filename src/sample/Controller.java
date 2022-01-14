@@ -16,13 +16,13 @@ public class Controller {
             label1.setText(String.valueOf(f1+f2));
         }
        else if (kasoti == 2) {
-            label1.setText(String.valueOf(f1+f2));
+            label1.setText(String.valueOf(f1-f2));
         }
        else if (kasoti == 3) {
-            label1.setText(String.valueOf(f1+f2));
+            label1.setText(String.valueOf(f1*f2));
         }
        else if (kasoti == 4) {
-            label1.setText(String.valueOf(f1+f2));
+            label1.setText(String.valueOf(f1/f2));
         }
     }
     public void injectlb2(String a){

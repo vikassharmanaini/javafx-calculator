@@ -1,0 +1,20 @@
+<component name="ArtifactManager">
+  <artifact type="jpackage" name="javacry">
+    <output-path>$PROJECT_DIR$/out/artifacts/javacry</output-path>
+    <properties id="jpackage-properties">
+      <options>
+        <option name="version" value="" />
+        <option name="copyright" value="" />
+        <option name="description" value="" />
+        <option name="vendor" value="" />
+        <option name="verbose" value="true" />
+        <option name="mainClass" value="sample.Main" />
+      </options>
+    </properties>
+    <root id="root">
+      <element id="archive" name="javacry.jar">
+        <element id="module-output" name="javacry" />
+      </element>
+    </root>
+  </artifact>
+</component>
